@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio – Backend con Spring</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/c9aed9c502.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <div id="header-content">
+    <img src="images/avatar.png" alt="Avatar" class="avatar" height="248" width="248">
+        <div id="header-info">
+            <h1>Hola, soy Vicente</h1>
+            <p>Backend Developer • Spring Boot • Microservicios</p>
+            <nav class="social-links">
+                <a href="https://github.com/0laqase93" target="_blank" title="Github"><i class="fa-brands fa-github fa-2x blue"></i></a>
+                <a href="https://www.linkedin.com/in/vicente-juan-casares-lujan-44b76b213/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in fa-2x blue"></i></a>
+                <a href="docs/CV.pdf" target="_blank" title="CV"><i class="fas fa-file fa-2x blue"></i></a>
+                <a href="mailto:vicsares@gmail.com" target="_blank" title="Mail"><i class="fa-solid fa-envelope fa-2x blue"></i></a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p class="justify">
+            Soy <b>desarrollador backend junior</b> con experiencia en <b>Java y Spring Boot</b>. Me apasiona
+            <b>construir sistemas sólidos y eficientes</b>, y disfruto <b>resolviendo problemas complejos</b>
+            (especialmente si no explotan en producción).
+        </p>
+        <br>
+        <p class="justify">
+            Me gusta <b>aprender constantemente</b>, <b>trabajar en equipo</b> y <b>aportar ideas</b> que no
+            empiecen con “¿Y si lo rompemos primero?”. Busco <b>seguir creciendo en entornos dinámicos</b>
+            donde el <b>backend sea clave</b>, y donde pueda <b>aportar valor</b> tanto con <b>código</b> como
+            con <b>actitud</b>.
+        </p>
+    </section>
+
+    <section id="stack">
+        <h2>Tech Stack</h2>
+        <ul class="stack-list">
+            <li><i class="fa-solid fa-square-check green" ></i> <b>Tecnologías</b>: Java • Spring Boot • Spring Security • Spring Data JPA</li>
+            <li><i class="fa-solid fa-square-check green"></i> <b>Contenedores y despliegue</b>: Docker • Docker Compose • CI/CD</li>
+            <li><i class="fa-solid fa-square-check green"></i> <b>Bases de datos</b>: MySQL • PostgreSQL</li>
+            <li><i class="fa-solid fa-square-check green"></i> <b>Testing</b>: JUnit • Mockito</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+            <a href="https://github.com/0laqase93/Blinky" target="_blank" title="Blinky (Github)" class="no-decoration">
+                <div class="project-card">
+                    <h3>
+                        <i class="fa-solid fa-code"></i>
+                        Blinky
+                    </h3>
+                    <p class="justify">App móvil de gestión de eventos diarios con IA personalizable.</p>
+                    <ul class="project-tech">
+                        <li>Kotlin</li>
+                        <li>Retrofit</li>
+                        <li>Jetpack Compose</li>
+                        <li>Material Design 3</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="https://github.com/0laqase93/ApiLlama3Blinky" target="_blank" title="Api - Blinky (Github)" class="no-decoration">
+                <div class="project-card">
+                    <h3>
+                        <i class="fa-solid fa-code"></i>
+                        Api - Blinky
+                    </h3>
+                    <p class="justify">Api para la gestión de los datos y la lógica la app de Blinky.</p>
+                    <ul class="project-tech">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>JPA</li>
+                        <li>PostgreSQL</li>
+                        <li>WebClient</li>
+                        <li>JWT</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="https://github.com/0laqase93/SMAT" target="_blank" title="SMAT (Github)" class="no-decoration">
+                <div class="project-card">
+                    <h3>
+                        <i class="fa-solid fa-code"></i>
+                        SMAT
+                    </h3>
+                    <p class="justify">Simulador planetario orbital para PC con físicas reales y explosiones simuladas.</p>
+                    <ul class="project-tech">
+                        <li>Java</li>
+                        <li>JavaFX</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <div class="experience-container">
+            <div class="experience">
+                <h3>Internship Sopra Steria</h3>
+                <p>Marzo 2025 - Junio 2025</p>
+                <p>
+                    En el transcurso de las prácticas he hecho muy buenos compañeros y contactos. He aprendido a
+                    trabajar en equipo, adaptarme a la situación y sobre todo conocimiento técnico.
+                </p>
+                <ul class="experience-tech">
+                    <li><img src="images/springBoot.svg" alt="Spring boot icon" height="32"></li>
+                    <li><img src="images/java.svg" alt="Java icon" height="32"></li>
+                    <li><img src="images/gitlab.svg" alt="Gitlab icon" height="32"></li>
+                    <li><img src="images/sql.svg" alt="SQL icon" height="32"></li>
+                    <li><img src="images/swagger.svg" alt="Swagger icon" height="32"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Made with <i class="fa-solid fa-heart red"></i> Vicente Casares.</p>
+</footer>
+
+</body>
+</html>
