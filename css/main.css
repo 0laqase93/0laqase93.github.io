@@ -54,12 +54,6 @@ section + section {
     left: 0;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
 .project-card {
     padding: 1rem;
     border: 1px solid #ddd;
@@ -163,4 +157,16 @@ footer {
 .social-links a:hover i {
     transform: scale(1.75);
     color: #FBBC05;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 700px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
